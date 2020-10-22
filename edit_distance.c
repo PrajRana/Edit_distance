@@ -6,21 +6,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "edit_distance.h"
+//#include "edit_distance.h"
 
-/*  Suggestions
-- When you work with 2D arrays, be careful. Either manage the memory yourself, or
-work with local 2D arrays. Note C99 allows parameters as array sizes as long as
-they are declared before the array in the parameter list. See:
-https://www.geeksforgeeks.org/pass-2d-array-parameter-c/
-
-Worst case time complexity to compute the edit distance from T test words
-to D dictionary words where all words have length MaxLen:
-Student answer:  Theta(T*D)//where length of T and D are MaxLen with 100 characters
-
-*/
-
-/* You can write helper functions here */
 
 void free_table(char** table,int n)  //free table
 {
