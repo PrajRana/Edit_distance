@@ -6,9 +6,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-//#include "edit_distance.h"
-
-
 void free_table(char** table,int n)  //free table
 {
   int i=0;
